@@ -1,4 +1,5 @@
 #include "raylib.h"
+#include "string"
 
 int main() {
     const int screenWidth = 960;
@@ -15,7 +16,7 @@ int main() {
 
         BeginDrawing();
         ClearBackground(RAYWHITE);
-        Drawtext
+        DrawText(TextFormat("hea %.i lth", health), 480, 300, 20, LIGHTGRAY);
         EndDrawing();
     }
 
